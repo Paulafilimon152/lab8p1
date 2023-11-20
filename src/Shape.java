@@ -28,6 +28,7 @@ class Rectangle extends Shape {
         this.length=length;
         this.width=width;
     }
+    
     public double calculateArea1(){
         return length*width;
     }
